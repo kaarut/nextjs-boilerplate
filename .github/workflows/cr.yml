@@ -1,4 +1,4 @@
-name: Code Review
+name: Static Code Analysis
 permissions:
   contents: read
   pull-requests: write
