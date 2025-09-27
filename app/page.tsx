@@ -4,6 +4,16 @@ export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+        {/* Demo section for automatic code review plugin */}
+        <section className="w-full bg-blue-50 dark:bg-blue-900 rounded-lg p-6 mb-4 border border-blue-200 dark:border-blue-700">
+          <h2 className="text-xl font-bold text-blue-700 dark:text-blue-200 mb-2">Automatic Code Review Plugin Demo</h2>
+          <p className="text-blue-800 dark:text-blue-100 mb-2">This section was added to demonstrate a code change for the GitHub plugin demo.</p>
+          <ul className="list-disc list-inside text-blue-900 dark:text-blue-100">
+            <li>Detects code changes automatically</li>
+            <li>Provides instant feedback on pull requests</li>
+            <li>Improves code quality and collaboration</li>
+          </ul>
+        </section>
         <Image
           className="dark:invert"
           src="/next.svg"
